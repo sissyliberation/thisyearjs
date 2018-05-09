@@ -2,7 +2,7 @@ html, body {
   width: 100%;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 200;
-  font-size: 18px;
+  font-size: 16px;
   overflow-x: hidden;
 }
 
@@ -40,7 +40,7 @@ footer {
 .wrapper {
   margin: 0 auto;
   max-width: 1200px;
-  padding: 0 2em;
+  padding: 0 1em;
 }
 
 .header {
@@ -99,6 +99,13 @@ footer {
 }
 
 @media (min-width: 680px) {
+  html, body {
+    font-size: 18px;
+  }
+  .wrapper {
+    padding: 0 2em;
+  }
+
   .header h1 {
     order: 0;
     width: initial;
