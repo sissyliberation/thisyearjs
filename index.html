@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>thisyear.js</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.png">
+  <meta name="author" content="Disregarding Standards" />
+  <meta name="description" content="thisyear.js dynamically displays the current year in any DOM element you want." />
+  <meta property="og:title" content="thisyear.js" />
+  <meta property="og:description"  content="thisyear.js dynamically displays the current year in any DOM element you want." />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai-sublime.min.css">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./demo.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <h1>thisyear<span class="color">.</span>js</h1>
+      <a href="./thisyear.js" target="_blank" id="download" download>Download</a>
+    </div>
+
+    <h2>What is this?</h2>
+    <p>thisyear.js dynamically displays the current year in any DOM element you want.</p>
+
+    <h2>Why would anybody need this?</h2>
+    <p>You know that copyright year on your site's footer you forget to update until summer's come by? Exactly.</p>
+
+    <h2>Fair enough. How do I set it up?</h2>
+    <p>Replace the year with:</p>
+    <pre>
+      <code class="html">
+        &lt;span class="thisyear"&gt;&lt;/span&gt;
+
+      </code>
+    </pre>
+    <p>Then, just reference the file and you're good to go.</p>
+    <pre>
+      <code class="html">
+        &lt;script type="text/javascript" src="./path/to/thisyear.js"&gt;&lt;/script&gt;
+
+      </code>
+    </pre>
+
+    <h2>What about dynamically-generated content?</h2>
+    <p>Just call this function:</p>
+
+    <pre>
+      <code class="javascript">
+        thisyear.start();
+
+      </code>
+    </pre>
+
+    <h2>Is this really necessary?</h2>
+    <p>No. But, it's <span class="accent">extremely</span> lightweight and has no dependencies.</p>
+
+    <p>Save yourself the hassle of repetitive menial tasks when you can.</p>
+
+    <h2>What inspired you to do this?</h2>
+    <p>My wi-fi was down.</p>
+  </div>
+  <footer>
+    <p>Created by <a href="http://disregardingstandards.com">Disregarding Standards</a>.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>

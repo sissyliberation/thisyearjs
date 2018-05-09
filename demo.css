@@ -1,0 +1,70 @@
+html, body {
+	width: 100%;
+	font-family: 'IBM Plex Mono', monospace;
+	font-weight: 200;
+	font-size: 18px;
+}
+
+h1 {
+	font-weight: 400;
+	margin-bottom: 1em;
+}
+
+h2 {
+	font-weight: 400;
+	color: #ed637d;
+}
+
+h2:not(:first-child) {
+	margin-top: 2em;
+}
+
+pre {
+	white-space: pre-line;
+}
+
+footer {
+	padding: 2em 0;
+	text-align: center;
+	font-weight: 400;
+}
+
+footer a {
+	color: #ed637d;
+	text-decoration: none;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 0 2em;
+}
+
+.header {
+	padding: 1.5em 0;
+	text-align: center;
+}
+
+.accent {
+	font-style: italic;
+}
+
+.color {
+	color: #ed637d;
+}
+
+#download {
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: .75em 1.25em;
+	border-radius: 0;
+	background: #ed637d;
+	color: white;
+	letter-spacing: .1em;
+}
+
+#download:hover {
+	color: black;
+	font-weight: 400
+	;
+}
