@@ -3,6 +3,7 @@ html, body {
 	font-family: 'IBM Plex Mono', monospace;
 	font-weight: 200;
 	font-size: 18px;
+	overflow-x: hidden;
 }
 
 h1 {
