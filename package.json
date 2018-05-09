@@ -1,0 +1,23 @@
+{
+  "name": "thisyearjs",
+  "version": "1.0.0",
+  "description": "thisyear.js dynamically displays the current year in any DOM element you want.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novacourtois/thisyearjs.git"
+  },
+  "author": "Disregarding Standards",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/novacourtois/thisyearjs/issues"
+  },
+  "homepage": "https://github.com/novacourtois/thisyearjs#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
