@@ -53,17 +53,37 @@ footer a {
 	color: #ed637d;
 }
 
-#download {
+.actions {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.btn {
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: .75em 1.25em;
 	border-radius: 0;
+	letter-spacing: .1em;
+
+}
+
+#download {
 	background: #ed637d;
 	color: white;
-	letter-spacing: .1em;
 }
 
 #download:hover {
+	color: black;
+	font-weight: 400
+	;
+}
+
+#github {
+	color: black;
+	border: 1px solid black;
+}
+
+#github:hover {
 	color: black;
 	font-weight: 400
 	;
