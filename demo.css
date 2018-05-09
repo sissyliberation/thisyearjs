@@ -45,7 +45,16 @@ footer {
 
 .header {
   padding: 1.5em 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header h1 {
+  order: -1;
   text-align: center;
+  width: 100%;
 }
 
 .accent {
@@ -87,4 +96,11 @@ footer {
 #github:hover {
   color: black;
   font-weight: 400;
+}
+
+@media (min-width: 680px) {
+  .header h1 {
+    order: 0;
+    width: initial;
+  }
 }
